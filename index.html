@@ -8,113 +8,212 @@
     <body>
         <header>
             <h1>Path to Success</h1> 
-            <p>Unlock your full potential with personalized life coaching</p>
-            <nav>
-                <ul>
-                    <li><a href="services">Our Services</a></li>Menu
-                    <li><a href="whychooseus">Why Choose Us</a></li>
-                    <li><a href="prices">Prices</a></li>
-                    <li><a href="step">Take the First Step</a></li>
+            <p id="subtitle">Unlock your full potential with personalized life coaching</p>
+            <p id="smallsubtitle">Unlock your full potential</p>
+         <nav class="nav">
+            <h3 id="menu-bttn">MENU</h3>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#services" class="nav__link">Our Services</a></li>
+                    <li class="nav__item"><a href="#why-us" class="nav__link">Why Choose Us</a></li>
+                    <li class="nav__item"><a href="#pricing" class="nav__link">Prices</a></li>
+                    <li class="nav__item"><a href="#cta" class="nav__link">Take the First Step</a></li>
                 </ul>
-            </nav>
+            </nav>   
         </header>
+        
         <main>
 
-<h2>Our Services</h2>
-<section id="One-on-One">
-    <h3>One-on-One Coaching</h3>
-        <article class="personal-development">
-        <img href="images/personal-development.png" alt=”teal icon of a smiling face”>
-        <h3>Personal Development</h3>
-            <p>Identify and overcome obstacles holding you back from living your best life. Whether it's building confidence, breaking bad habits, or discovering your true purpose, we'll work together to create a clear roadmap for success.</p>
-        </article>
+            <section id="services" class="services">
+                <h2>Our Services</h2>
+                <section id="1on1" class="container">
+                    
+                    <h3>One-on-One Coaching</h3>
+                    <div class="services__grid">
+                        <div class="service-card">
+                            <img src="images/personal-development.png" alt="Smiling face icon" class="service-card__icon">
+                            <h4 class="service-card__title">Personal Development</h4>
+                            <p>Identify and overcome obstacles holding you back from living your best life. Whether it's building confidence, breaking bad habits, or discovering your true purpose, we'll work together to create a clear roadmap for success.</p>
+                        </div>
+    
+                        <div class="service-card">
+                            <img src="images/career-coaching.png" alt="lavender icon of a briefcase" class="service-card__icon">
+                            <h4 class="service-card__title">Career Coaching</h4>
+                            <p>Feeling stuck in your career? We'll help you clarify your goals, develop a plan for advancement, and build the skills needed to thrive in your professional life.</p>
+                        </div>
+                        
+                        <div class="service-card">
+                            <img src="images/relationship-coaching.png" alt="pink icon of a heart" class="service-card__icon">
+                            <h4 class="service-card__title">Relationship Coaching</h4>
+                            <p>Enhance your relationships with better communication, understanding, and empathy. Whether it's family, friends, or partners, we'll help you build stronger connections.</p>
+                        </div>
+                </section>
+                <section id="group" class="container">    
+                    <div class="services__grid">
+                        <h3>Group Coaching</h3>
+                        <div class="service-card">
+                            <img src="images/supportive-community.png" alt="yellow icon of hands clasping" class="service-card__icon">
+                            <h4 class="service-card__title">Supportive Community</h4>
+                            <p>Join a group of like-minded individuals on a similar journey. Share experiences, gain insights, and grow together in a safe, supportive environment.</p>
+                        </div>
+                        <div class="service-card">
+                            <img src="images/focused-session.png" alt="teal icon of a clock face" class="service-card__icon">
+                            <h4 class="service-card__title">Focused Sessions</h4>
+                            <p>Our group coaching sessions focus on specific themes such as confidence-building, time management, or work-life balance. Each session is designed to provide actionable takeaways that you can apply immediately.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="workshop" class="container">    
 
-alt=”lavender icon of a briefcase”
-Career Coaching
-Feeling stuck in your career? We'll help you clarify your goals, develop a plan for advancement, and build the skills needed to thrive in your professional life.
+                    <h3>Workshops & Seminars</h3>
+                    <div class="service-card">
+                        <img src="images/interactive-learning.png" alt="lavender icon of text conversation" class="service-card__icon">
+                        <h4 class="service-card__title">Interactive Learning</h4>
+                        <p>Participate in our interactive workshops and seminars that cover a range of topics, from goal setting to stress management. These events are designed to provide practical tools and strategies that you can implement in your daily life.</p>
+                    </div>
+                   
+                </div>
+            
+                <section id="online" class="container">    
 
+                    <h3>Online Courses</h3>
+                    <div class="service-card">
+                        <img src="images/flexible-learning.png" alt="pink icon of a curly arrow" class="service-card__icon">
+                        <h4 class="service-card__title">Flexible Learning</h4>
+                        <p>Access our online courses at your convenience. With video lessons, downloadable resources, and exercises, you can learn at your own pace from the comfort of your home.</p>
+                    </div>
+                    
+                </section>
+                </section>
+            </section>
 
-alt=”pink icon of a heart”
-Relationship Coaching
-Enhance your relationships with better communication, understanding, and empathy. Whether it's family, friends, or partners, we'll help you build stronger connections.
-</section>
-Group Coaching
+        <section id="wcu">
+        <h2>Why Choose Us</h2>
+            <ul>
+                <li id="one">Personalized Approach</li>
+                <li id="two">Proven Results</li>
+                <li id="three">Supportive Environment</li>
+                <li id="four">Flexible Options</li>
+                
+                
+            </ul>
+        </section>
 
-alt=”yellow icon of hands clasping”
-Supportive Community
-Join a group of like-minded individuals on a similar journey. Share experiences, gain insights, and grow together in a safe, supportive environment.
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <h2>Pricing</h2>
+                <div class="pricing__grid">
+                    <h4>One-on-One Coaching</h4>
+                    <div class="pricing-table">
+                        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Service </th>
+                                    <th>Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr>
+                                    <td>Single Session</td>
+                                    <td>$150</td>
+                                </tr>
+                                <tr>
+                                    <td>Monthly Package</td>
+                                    <td>$550</td>
+                                </tr>
+                                <tr>
+                                    <td>3-month Package</td>
+                                    <td>$1500</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4>Group Coaching</h4>
+                    <div class="pricing-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Service</th>
+                                    <th>Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Single Session</td>
+                                    <td>$75</td>
+                                </tr>
+                                <tr>
+                                    <td>Monthly Package</td>
+                                    <td>$550</td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                    </div> 
+                    <h4>Workshop & Seminars</h4>
+                    <div class="pricing-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Service</th>
+                                    <th>Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            
+                                <tr>
+                                    <td>Single Workshop</td>
+                                    <td>$150</td>
+                                </tr>
+                                <tr>
+                                    <td>Seminar Series</td>
+                                    <td>$250</td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4>Online Courses</h4>
 
+                    <div class="pricing-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Service</th>
+                                    <th>Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr>
+                                    <td>Single Workshop</td>
+                                    <td>$150</td>
+                                </tr>
+                                <tr>
+                                    <td>Webinar Series</td>
+                                    <td>$250</td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fs" class="fs">
+            <div class="container">
+                <h2>Take the First Step Today</h2>
+                <p>Your journey to a more fulfilling life begins with a single step. Book a free 30-minute consultation today to discover how our coaching services can help you achieve your goals. Let's work together to create the life you've always dreamed of!</p>
+                <button href="#" class="button">SCHEDULE NOW</button>
+            </div>
+        </section>
 
-alt=”teal icon of a clock face”
-Focused Sessions
-Our group coaching sessions focus on specific themes such as confidence-building, time management, or work-life balance. Each session is designed to provide actionable takeaways that you can apply immediately.
+        </main>
 
-Workshops & Seminars
-
-alt=”lavender icon of text conversation”
-Interactive Learning
-Participate in our interactive workshops and seminars that cover a range of topics, from goal setting to stress management. These events are designed to provide practical tools and strategies that you can implement in your daily life.
-
-Online Courses
-
-alt=”pink icon of a curly arrow”
-Flexible Learning
-Access our online courses at your convenience. With video lessons, downloadable resources, and exercises, you can learn at your own pace from the comfort of your home.
-
-Why Choose Us
-Personalized Approach
-Proven Results
-Supportive Environment
-Flexible Options
-Pricing
-One-on-One Coaching
-
-Service
-Cost
-Single Session
-$150
-Monthly Package
-$550
-3-month Package
-$1500
-
-	
-Group Coaching
-
-Service
-Cost
-Single Session
-$75
-Monthly Package
-$250
-
-
-Workshops & Seminars
-
-Service
-Cost
-Single Workshop
-$150
-Seminar Series
-$250
-
-
-Online Courses
-
-Service
-Cost
-Single Workshop
-$150
-Webinar Series
-$250
-
-
-Take the First Step Today
-Your journey to a more fulfilling life begins with a single step. Book a free 30-minute consultation today to discover how our coaching services can help you achieve your goals. Let's work together to create the life you've always dreamed of!
-
-Schedule Now
-</main>
-Copyright 2024 
-Terms and Conditions
-</body>
+        <footer>
+            <p>&copy; Copyright 2024</p> 
+            <a href="#">Terms and Conditions</a>
+        </footer>
+    </body>
 </html>
