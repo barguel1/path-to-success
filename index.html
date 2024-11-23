@@ -7,10 +7,7 @@
     </head>
     <body>
         <header>
-            <h1>Path to Success</h1> 
-            <p id="subtitle">Unlock your full potential with personalized life coaching</p>
-            <p id="smallsubtitle">Unlock your full potential</p>
-         <nav class="nav">
+            <nav class="nav">
             <h3 id="menu-bttn">MENU</h3>
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#services" class="nav__link">Our Services</a></li>
@@ -18,14 +15,17 @@
                     <li class="nav__item"><a href="#pricing" class="nav__link">Prices</a></li>
                     <li class="nav__item"><a href="#cta" class="nav__link">Take the First Step</a></li>
                 </ul>
-            </nav>   
+            </nav> 
+            <h1>Path to Success</h1> 
+            <p>Unlock your full potential <span>with personalized life coaching</span></p>
+           
         </header>
         
         <main>
-
+<h2>Our Services</h2>
             <section id="services" class="services">
-                <h2>Our Services</h2>
-                <section id="1on1" class="container">
+                
+                <section id="onone" class="container">
                     
                     <h3>One-on-One Coaching</h3>
                     <div class="services__grid">
@@ -55,7 +55,7 @@
                             <h4 class="service-card__title">Supportive Community</h4>
                             <p>Join a group of like-minded individuals on a similar journey. Share experiences, gain insights, and grow together in a safe, supportive environment.</p>
                         </div>
-                        <div class="service-card">
+                        <div id="focused" class="service-card">
                             <img src="images/focused-session.png" alt="teal icon of a clock face" class="service-card__icon">
                             <h4 class="service-card__title">Focused Sessions</h4>
                             <p>Our group coaching sessions focus on specific themes such as confidence-building, time management, or work-life balance. Each session is designed to provide actionable takeaways that you can apply immediately.</p>
@@ -70,9 +70,7 @@
                         <h4 class="service-card__title">Interactive Learning</h4>
                         <p>Participate in our interactive workshops and seminars that cover a range of topics, from goal setting to stress management. These events are designed to provide practical tools and strategies that you can implement in your daily life.</p>
                     </div>
-                   
-                </div>
-            
+                </section>
                 <section id="online" class="container">    
 
                     <h3>Online Courses</h3>
@@ -82,7 +80,10 @@
                         <p>Access our online courses at your convenience. With video lessons, downloadable resources, and exercises, you can learn at your own pace from the comfort of your home.</p>
                     </div>
                     
-                </section>
+                </section> 
+                </div>
+            
+               
                 </section>
             </section>
 
@@ -102,8 +103,9 @@
             <div class="container">
                 <h2>Pricing</h2>
                 <div class="pricing__grid">
+                    <div class="table">
                     <h4>One-on-One Coaching</h4>
-                    <div class="pricing-table">
+                    <div id="on" class="on">
                         
                         <table>
                             <thead>
@@ -129,8 +131,10 @@
                             </tbody>
                         </table>
                     </div>
+                    </div>
+                    <div class="table">
                     <h4>Group Coaching</h4>
-                    <div class="pricing-table">
+                    <div id="gc" class="gc">
                         <table>
                             <thead>
                                 <tr>
@@ -150,9 +154,11 @@
                             
                             </tbody>
                         </table>
+                    </div>
                     </div> 
+                    <div class="table">
                     <h4>Workshop & Seminars</h4>
-                    <div class="pricing-table">
+                    <div id="ws" class="ws">
                         <table>
                             <thead>
                                 <tr>
@@ -174,9 +180,11 @@
                             </tbody>
                         </table>
                     </div>
+                    </div>
+                    <div class="table">
                     <h4>Online Courses</h4>
 
-                    <div class="pricing-table">
+                    <div id="oc" class="oc">
                         <table>
                             <thead>
                                 <tr>
@@ -198,14 +206,18 @@
                             </tbody>
                         </table>
                     </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="fs" class="fs">
             <div class="container">
                 <h2>Take the First Step Today</h2>
+                <div class="fs__content">
                 <p>Your journey to a more fulfilling life begins with a single step. Book a free 30-minute consultation today to discover how our coaching services can help you achieve your goals. Let's work together to create the life you've always dreamed of!</p>
-                <button href="#" class="button">SCHEDULE NOW</button>
+                <button id="now"
+                href="#" class="button">SCHEDULE NOW</button>
+                </div>
             </div>
         </section>
 
